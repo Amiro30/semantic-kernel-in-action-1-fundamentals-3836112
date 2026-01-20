@@ -26,6 +26,8 @@ public class TryingOutTheKernel
 
         var result = await kernel.InvokePromptAsync(prompt);
 
+        Console.WriteLine(result);
+
 
 
     }
