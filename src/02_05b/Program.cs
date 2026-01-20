@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using _02_05b;
+
+
+Console.WriteLine("Hello, new semantic  World!");
+
+
+await TryingOutTheKernel.Execute();
